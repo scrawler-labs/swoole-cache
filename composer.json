@@ -1,0 +1,24 @@
+{
+    "name": "scrawler/swoole-cache",
+    "description": "High Speed in memory cahce using swoole table",
+    "type": "library",
+    "license": "Apache 2.0",
+    "autoload": {
+        "psr-4": {
+            "Scrawler\\Cache\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Pranjal Pandey",
+            "email": "pranjaltech10@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-openswoole": "*",
+        "psr/simple-cache": "*"
+    }
+}
