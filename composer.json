@@ -2,7 +2,7 @@
     "name": "scrawler/swoole-cache",
     "description": "High Speed in memory cahce using swoole table",
     "type": "library",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "Scrawler\\Cache\\": "src/"
